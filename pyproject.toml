@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "foxlin-cli"
+version = "0.1.0"
+description = ""
+authors = ["misano <me@MirSobhan.ir>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+foxlin = 'foxlin_cli:main'
